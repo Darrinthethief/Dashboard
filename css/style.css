@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Body section */
+
+body {
+    border: 1px solid black;
+    height: 100%;
+    max-width: 100%;
+}
+
+/* Navigation Section */
+
+.nav-bar {
+    border: 1px solid black;
+    float: left;
+    height: 100%;
+    position: fixed;
+    width: 20%;
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-list {
+    border: 1px solid black;
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* Heading Section */
+
+header {
+    border: 1px solid black;
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+
+/* Main Section */
+
+main {
+    border: 1px solid black;
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+
+/* Footer Section */
+
+footer {
+    border: 1px solid black;
+    float: right;
+    height: 100%;
+    width: 80%;
+}
